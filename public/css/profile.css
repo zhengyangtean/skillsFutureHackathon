@@ -1,0 +1,24 @@
+.exp-container {
+    position: absolute;
+    right: 0;
+}
+.exp-container h2 {
+    font-weight: 300 !important;
+}
+.exp-container h6 {
+    font-weight: 300 !important;
+}
+
+.occupation {
+    color: gray;
+    
+    font-weight: 300;
+}
+.reward-img {
+    height: 70px;
+}
+.rewards-caption {
+    font-size: 0.8rem;
+    color: gray;
+    height: 40px;
+}

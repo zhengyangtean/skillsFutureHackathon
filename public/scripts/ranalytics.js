@@ -248,9 +248,8 @@ Highcharts.chart('lifetimejobsskill', {
   },
 
   title: {
-    text: 'Number of Jobs taken',
+    text: 'Job skills',
     align: 'center',
-    x: -80
   },
 
   pane: {
@@ -301,9 +300,8 @@ Highcharts.chart('lifetimejobsindustry', {
   },
 
   title: {
-    text: 'Number of Jobs taken',
+    text: 'Industries',
     align: 'center',
-    x: -80
   },
 
   pane: {
