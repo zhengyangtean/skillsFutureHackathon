@@ -9,6 +9,6 @@ function showHidePassword() {
 
 $(document).ready(function(){
     $( "#loginButton" ).click(function() {
-      window.top.location.href = "/user-profile.html"; 
+      window.top.location.href = "/dashboard.html"; 
     });
 });
