@@ -28,8 +28,6 @@ h6 {
 }
 
 .navbar-custom {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     background-color: rgba(0, 0, 0, .7)
 }
 
@@ -201,8 +199,10 @@ ul#horizontal-list li {
     background-position: center center;
     background-attachment: scroll;
     background-size: cover
+}
 
-
+.account-img {
+    height: 25px;
 }
 
 .navigation-container {

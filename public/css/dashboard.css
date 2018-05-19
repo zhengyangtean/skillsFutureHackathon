@@ -1,6 +1,16 @@
 .page-content {
     margin: 15px;
 }
+.btn-primary:hover {
+    background-color: orange !important;
+    border-color: #EB5600 !important;
+}
+.btn-secondary {
+    background-color: white;
+    color: orange;
+    border-color: orange;
+}
+
 /*
 ** Topic
 */
@@ -57,7 +67,6 @@
     height: 200px;
 }
 .tags {
-    
 }
 
 .action-btn-container {
