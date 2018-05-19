@@ -23,6 +23,8 @@
 }
 
 .topic-img-caption {
+    margin: 0 -10px;
+    text-align: center;
     font-size: 0.8rem;
     color: gray;
 }
