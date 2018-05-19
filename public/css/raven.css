@@ -196,7 +196,7 @@ ul#horizontal-list li {
     position: relative;
     overflow: hidden;
     padding-top: 72px;
-    background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+    background: linear-gradient(0deg, #7AE845 0, #1A9900 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -209,16 +209,20 @@ ul#horizontal-list li {
 .navigation-tab {
     display: inline-block;
     margin: 0 10px;
+    background-color: gray;
     
     border-top: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
 .navigation-tab.active {
-    background-color: black;
+    background-color: white;
+}
+.navigation-tab.active a {
+    color: black;
 }
 .navigation-tab:hover {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .navigation-tab a {
