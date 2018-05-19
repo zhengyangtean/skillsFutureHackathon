@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+    $( "#monthstats" ).click(function() {
+         $( "#monthstats" ).addClass("active");
+         $( "#yearstats" ).removeClass("active");
+    });
+
+    $( "#yearstats" ).click(function() {
+         $( "#yearstats" ).addClass("active");
+         $( "#monthstats" ).removeClass("active");
+    });
     
 Highcharts.chart('earningPerMonth', {
     chart: {
@@ -238,7 +248,8 @@ Highcharts.chart('lifetimejobsskill', {
   },
 
   title: {
-    text: 'Number of Jobs taken (lifetime)',
+    text: 'Number of Jobs taken',
+    align: 'center',
     x: -80
   },
 
@@ -290,7 +301,8 @@ Highcharts.chart('lifetimejobsindustry', {
   },
 
   title: {
-    text: 'Number of Jobs taken (lifetime)',
+    text: 'Number of Jobs taken',
+    align: 'center',
     x: -80
   },
 
