@@ -52,7 +52,7 @@ header.masthead {
     overflow: hidden;
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
-    background: linear-gradient(0deg, #7AE845 0, #1A9900 100%);
+    background: linear-gradient(0deg, #1A9988 0, #1A9900 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -76,7 +76,7 @@ header.masthead .bg-circle {
     z-index: 0;
     position: absolute;
     border-radius: 100%;
-    background: linear-gradient(0deg, #1A9900 0, #7AE845 100%)
+    background: linear-gradient(0deg, #1A9900 0, #1A9988 100%)
 }
 
 header.masthead .bg-circle-1 {
