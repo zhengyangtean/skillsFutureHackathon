@@ -6,7 +6,8 @@
   "scripts": {
     "test": "exit 0",
     "start": "node app.js",
-    "bs": "browser-sync start --config './.bs-config.js'"
+    "bs": "browser-sync start --config './.bs-config.js'",
+    "winBs": "browser-sync start --config '.\\.bs-config.js'"
   },
   "author": "",
   "license": "ISC",
