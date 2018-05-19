@@ -209,7 +209,7 @@ ul#horizontal-list li {
     position: relative;
     overflow: hidden;
     padding-top: 72px;
-    background: linear-gradient(0deg, #7AE845 0, #1A9900 100%);
+    background: linear-gradient(0deg, #1A9900 0, #1A9900 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
