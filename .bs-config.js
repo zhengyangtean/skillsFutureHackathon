@@ -13,7 +13,7 @@
  |
  */
 module.exports = {
-    "files": ["public/*.*", "public/*.*"],
+    "files": ["public/*.*", "public/**/*.*"],
     "watchEvents": [
         "change"
     ],
