@@ -190,26 +190,16 @@ ul#horizontal-list li {
     padding-left: 40px;
     padding-right: 40px;
 }
-
-.navigation-container1{
-    position: relative;
-    overflow: hidden;
-    padding-top: 72px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover
 }
-
 .account-img {
     height: 25px;
 }
 
 .navigation-container {
-    position: relative;
+    position: relative
     overflow: hidden;
-    padding-top: 72px;
-    background: linear-gradient(0deg, #1A9900 0, #1A9900 100%);
+    padding-top: 67px;
+    background: linear-gradient(0deg, #7AE845 0, #1A9900 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -217,25 +207,17 @@ ul#horizontal-list li {
 }
 .navigation-content {
     padding: 0 15px;
-    border-bottom: 1px solid gray;
 }
 .navigation-tab {
     display: inline-block;
     margin: 0 10px;
-    background-color: gray;
-    
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
 }
 .navigation-tab.active {
-    background-color: white;
+    background-color: green;
 }
-.navigation-tab.active a {
-    color: black;
-}
+
 .navigation-tab:hover {
-    background-color: lightgray;
+    background-color: lightgreen;
 }
 
 .navigation-tab a {
@@ -247,4 +229,41 @@ ul#horizontal-list li {
 .content {
     position: relative;
     min-height: 100vh;
+}
+
+.navigation-tab1 {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: gray;
+    
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.navigation-container1 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover
+}
+
+.navigation-tab1.active {
+    background-color: white;
+}
+.navigation-tab1.active a {
+    color: black;
+}
+.navigation-tab1:hover {
+    background-color: lightgray;
+}
+
+.navigation-tab1 a {
+    display: block;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
 }
