@@ -84,14 +84,14 @@ header.masthead .bg-circle-4{
 
 .translucentBG {
     border-radius: 25px;
-    padding: 20px; 
+    padding: 20px;
     background-color: #fff;
     background-color: rgba(255,255,255,0.5);
 }
 
 .translucentBlueBG {
     border-radius: 25px;
-    padding: 20px; 
+    padding: 20px;
     background-color: #00f;
     background-color: rgba(0,0,125,0.2);
 }
@@ -105,4 +105,39 @@ ul#horizontal-list li {
     display: inline;
     padding-left: 40px;
     padding-right: 40px;
+}
+.navigation-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 72px;
+    background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover
+}
+.navigation-content {
+    padding: 0 15px;
+    border-bottom: 1px solid gray;
+}
+.navigation-tab {
+    display: inline-block;
+    margin: 0 10px;
+    
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.navigation-tab.active {
+    background-color: black;
+}
+.navigation-tab:hover {
+    background-color: gray;
+}
+
+.navigation-tab a {
+    display: block;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
 }
