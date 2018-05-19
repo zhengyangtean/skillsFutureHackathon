@@ -12,7 +12,7 @@ function setupClickHandler () {
     });
 
     $("#acceptJob").click((e) => {
-        $("#AvailableTopic").hide()
-        $("#inProgress").show()
+        $("#AvailableTopic").fadeOut("slow");
+        $("#inProgress").fadeIn("slow" );
     });
 }
