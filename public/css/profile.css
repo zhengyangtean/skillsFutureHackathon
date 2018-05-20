@@ -11,8 +11,16 @@
 
 .occupation {
     color: gray;
-    
     font-weight: 300;
+}
+.reward-item {
+    padding: 15px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.reward-item:hover {
+    background-color: aliceblue;
+    transition: all 0.2s;
 }
 .reward-img {
     height: 70px;
