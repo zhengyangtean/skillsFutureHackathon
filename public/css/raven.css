@@ -309,7 +309,7 @@ ul#horizontal-list li {
 }
 
 
-@media (max-width:801px) {
+@media (max-width:992px) {
     .school-btn {
         font-size: 0.75rem;
     }
@@ -321,6 +321,6 @@ ul#horizontal-list li {
     .button5 {position:absolute;bottom:17%;;left:45%;}
     .button6 {position:absolute;bottom:17%;;left:55%;}
     .button7 {position:absolute;bottom:17%;;left:66%;}
-    .button8 {position:absolute;bottom:17%;;left:76%;}
-    .button9 {position:absolute;bottom:17%;;left:83.5%; width: 200px;}
+    .button8 {position:absolute;bottom:17%;;left:75.5%;}
+    .button9 {position:absolute;bottom:17%;;left:81.5%; width: 200px;}
 }
