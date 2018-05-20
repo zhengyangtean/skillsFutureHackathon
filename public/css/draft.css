@@ -1,0 +1,7 @@
+.report-area {
+    width: 100%;
+    height: 500px;
+}
+.insight-item::before {
+    content: "\25CF";
+}
