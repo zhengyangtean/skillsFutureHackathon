@@ -68,7 +68,29 @@
     width: 100%;
     height: 200px;
 }
+
+.skill-required {
+    display: inline-block;
+    padding: 5px;
+    pointer: cursor;
+}
+.skill-required:hover {
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.skill-required img {
+    height: 25px;
+}
+.skill-required .caption {
+    color: gray;
+    font-size: 0.8rem;
+}
+
 .tags {
+}
+
+.pagination {
+    margin-right: -15px;
 }
 
 .action-btn-container {
