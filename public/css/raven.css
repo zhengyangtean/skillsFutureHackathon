@@ -230,7 +230,7 @@ ul#horizontal-list li {
 }
 .content {
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 51px);
 }
 
 .navigation-tab1 {
