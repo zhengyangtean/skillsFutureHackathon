@@ -269,3 +269,17 @@ ul#horizontal-list li {
     margin: 0 10px;
     color: white;
 }
+.imagewrap {display:inline-block;position:relative;}
+.button1 {position:absolute;bottom:20%;left:4.5%;}
+.button2 {position:absolute;bottom:20%;left:14.5%;}
+.button3 {position:absolute;bottom:20%;;left:24.7%;}
+.button4 {position:absolute;bottom:20%;;left:35%;}
+.button5 {position:absolute;bottom:20%;;left:46%;}
+.button6 {position:absolute;bottom:20%;;left:56%;}
+.button7 {position:absolute;bottom:20%;;left:67%;}
+.button8 {position:absolute;bottom:20%;;left:77%;}
+.button9 {position:absolute;bottom:20%;;left:88%;}
+
+.myskillfuture {
+    margin-bottom: -30px;
+}

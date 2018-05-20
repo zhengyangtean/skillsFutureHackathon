@@ -1,5 +1,21 @@
 $(document).ready(function(){
 
+    $("#cooTree").hide()
+
+    $( "#cfo" ).click(function() {
+         $( "#dropdown" ).text("CFO");
+         $( "#completion" ).text("40%");
+         $("#cooTree").hide()
+         $("#cfoTree").show()
+    });
+
+    $( "#coo" ).click(function() {
+         $( "#dropdown" ).text("COO");
+         $( "#completion" ).text("20%");
+         $("#cfoTree").hide()
+         $("#cooTree").show()
+    });
+
     $( "#monthstats" ).click(function() {
          $( "#monthstats" ).addClass("active");
          $( "#yearstats" ).removeClass("active");
@@ -248,8 +264,9 @@ Highcharts.chart('lifetimejobsskill', {
   },
 
   title: {
-    text: 'Job skills',
+    text: 'Number of Jobs Taken by Skills',
     align: 'center',
+    x: -80
   },
 
   pane: {
@@ -257,8 +274,8 @@ Highcharts.chart('lifetimejobsskill', {
   },
 
   xAxis: {
-    categories: ['Data analysis', 'Company research', 'Branding', 'Channel analysis',
-      'Market sizing', 'Competitive studies', 'Trend analysis', 'Individual profiling'],
+    categories: ['Accounting Standards', 'Accounting Systems', 'Business Acumen', 'Business Innovation',
+      'Data Analysis', 'Disruption Management', 'Cost Managements', 'Capital Raising'],
     tickmarkPlacement: 'on',
     lineWidth: 0
   },
@@ -300,8 +317,9 @@ Highcharts.chart('lifetimejobsindustry', {
   },
 
   title: {
-    text: 'Industries',
+    text: 'Number of Jobs taken by Industry',
     align: 'center',
+    x: -80
   },
 
   pane: {
@@ -341,4 +359,7 @@ Highcharts.chart('lifetimejobsindustry', {
   }]
 
 });
+
+
+
 });

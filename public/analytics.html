@@ -13,6 +13,9 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/treant.css" rel="stylesheet">
+
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -22,6 +25,8 @@
     <link href="css/dashboard.css" rel="stylesheet">
 
     <!-- Bootstrap core JavaScript -->
+    <script src="scripts/popper.js"></script>
+
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
 
@@ -73,6 +78,7 @@
             <div class="navigation-tab1" id="yearstats"> <a href="#">Lifetime Statistics</a> </div>
         </div>
     </section>
+    <hr>
 
     <section class="page-content">
         <div class="container" style="margin-bottom: 30px;">
@@ -84,20 +90,10 @@
                 <div class="col-md-6">
                     <div id="lifetimejobsindustry"></div>
                 </div>
+                <hr>
+
             </div>
             
-            <hr>
-            
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <div id="earningYTD"> Earnings </div>
-                    <h1>$3860.00</h1>
-                </div>
-                <div class="col-md-6">
-                    <div id="noJobsYTD"> Jobs Completed </div>
-                    <h1>41</h1>
-                </div>
-            </div>
             
             <div class="row">
                 <div class="col-md-6">
@@ -109,10 +105,104 @@
             </div>
             
             <hr>
+
+            <img class="myskillfuture" src="images/myskillfuture.jpeg">
+
+            <div class="row text-center">
+                
+
+                <br>
+
+                <div class="dropdown">
+                  <span class="ml-3">Targeted Job :</span><button  id="dropdown" class="btn btn-secondary dropdown-toggle ml-3 mb-3 mt-3" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     CFO
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p class="dropdown-item" id="cfo" href="#">CFO</p>
+                    <p class="dropdown-item" id="coo" href="#">COO</p>
+                  </div>
+                  <span class="ml-3">Proficiency Percentage: </span>
+                  <span id="completion" class="ml-3">40%</span>
+                </div>
+
+                <div id="cfoTree" class="imagewrap">
+                    <img  class="img-fluid"  src="images/cfotree.png">    
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button1" alt="W3Schools" src="img/NUS.png" width="80" height="80">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button2" alt="W3Schools" src="img/NTU.png" width="80" height="80">
+                    </a>
+
+                     <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button3" alt="W3Schools" src="img/SMU.jpg" width="80" height="80">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button4" alt="W3Schools" src="img/sit.png" width="80" height="80">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button5" alt="W3Schools" src="img/SP.png" width="80" height="80">
+                    </a>
+
+                     <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button6" alt="W3Schools" src="img/NAP.jpg" width="80" height="80">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button7" alt="W3Schools" src="img/TP.png" width="80" height="80">
+                    </a>
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button8" alt="W3Schools" src="img/NUS.png" width="80" height="80">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button9" alt="W3Schools" src="img/NTU.png" width="80" height="80">
+                    </a>
+                </div>
+
+                <div id="cooTree" class="imagewrap">
+                    <img  class="img-fluid"  src="images/clock.svg">    
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button1" alt="W3Schools" src="img/NUS.png" width="100" height="100">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button2" alt="W3Schools" src="img/NTU.png" width="100" height="100">
+                    </a>
+
+                     <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button3" alt="W3Schools" src="img/SMU.jpg" width="100" height="100">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button4" alt="W3Schools" src="img/sit.png" width="100" height="100">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button5" alt="W3Schools" src="img/SP.png" width="100" height="100">
+                    </a>
+
+                     <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button6" alt="W3Schools" src="img/NAP.jpg" width="100" height="100">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img class="button7" alt="W3Schools" src="img/TP.png" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+
+
         </div>
     </section>
 
-    <!-- Footer -->
+   
+
+   
+     <!-- Footer -->
     <footer class="py-3 bg-black">
         <div class="container">
             <p class="m-0 text-center text-white small">Copyright &copy; Ravenry 2018</p>
