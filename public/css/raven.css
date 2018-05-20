@@ -294,15 +294,15 @@ ul#horizontal-list li {
     padding-bottom: 65px;
 }
 
-.button1 {position:absolute;bottom:20%;left:4.5%;}
-.button2 {position:absolute;bottom:20%;left:14.5%;}
-.button3 {position:absolute;bottom:20%;;left:24.7%;}
-.button4 {position:absolute;bottom:20%;;left:35.5%;}
-.button5 {position:absolute;bottom:20%;;left:46%;}
-.button6 {position:absolute;bottom:20%;;left:56%;}
-.button7 {position:absolute;bottom:20%;;left:67%;}
-.button8 {position:absolute;bottom:20%;;left:77%;}
-.button9 {position:absolute;bottom:20%;;left:84.5%; width: 200px;}
+.button1 {position:absolute;bottom:16%;left:4.5%;}
+.button2 {position:absolute;bottom:16%;left:14.5%;}
+.button3 {position:absolute;bottom:16%;;left:24.7%;}
+.button4 {position:absolute;bottom:16%;;left:35.5%;}
+.button5 {position:absolute;bottom:16%;;left:46%;}
+.button6 {position:absolute;bottom:16%;;left:56%;}
+.button7 {position:absolute;bottom:16%;;left:67%;}
+.button8 {position:absolute;bottom:16%;;left:77%;}
+.button9 {position:absolute;bottom:16%;;left:84.5%; width: 200px;}
 
 .myskillfuture {
     margin-bottom: -30px;
