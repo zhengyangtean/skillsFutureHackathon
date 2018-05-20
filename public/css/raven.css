@@ -271,6 +271,10 @@ ul#horizontal-list li {
 }
 .imagewrap {display:inline-block;position:relative;}
 
+.class-choice {
+    padding-left: 35px;
+}
+
 .school-btn {
     padding-top: 140px;
     opacity: 0;
@@ -302,4 +306,21 @@ ul#horizontal-list li {
 
 .myskillfuture {
     margin-bottom: -30px;
+}
+
+
+@media (max-width:801px) {
+    .school-btn {
+        font-size: 0.75rem;
+    }
+    
+    .button1 {position:absolute;bottom:17%;left:4.5%;}
+    .button2 {position:absolute;bottom:17%;left:13.5%;}
+    .button3 {position:absolute;bottom:17%;;left:23.7%;}
+    .button4 {position:absolute;bottom:17%;;left:34.5%;}
+    .button5 {position:absolute;bottom:17%;;left:45%;}
+    .button6 {position:absolute;bottom:17%;;left:55%;}
+    .button7 {position:absolute;bottom:17%;;left:66%;}
+    .button8 {position:absolute;bottom:17%;;left:76%;}
+    .button9 {position:absolute;bottom:17%;;left:83.5%; width: 200px;}
 }
