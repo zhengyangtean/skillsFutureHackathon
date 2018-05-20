@@ -89,6 +89,10 @@
 .tags {
 }
 
+.pagination {
+    margin-right: -15px;
+}
+
 .action-btn-container {
     text-align: right;
 }
